@@ -1,0 +1,3 @@
+SELECT customer.name as customer, store.name as store
+FROM `customer`
+JOIN `store` on fk_store_id = store.id;
